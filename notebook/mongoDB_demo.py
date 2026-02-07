@@ -12,8 +12,7 @@ data = df.to_dict(orient='records')
 
 DB_NAME = "Proj1"
 COLLECTION_NAME = "Proj1-Data"
-CONNECTION_URL = "mongodb+srv://telrmanoj_db_user:<password>@cluster0.pq0rllk.mongodb.net/?appName=Cluster0"
-# above, either remove your credentials or delete the mongoDB resource bofore pushing it to github.
+CONNECTION_URL = "" # add your own URL
 
 
 client = pymongo.MongoClient(CONNECTION_URL)
